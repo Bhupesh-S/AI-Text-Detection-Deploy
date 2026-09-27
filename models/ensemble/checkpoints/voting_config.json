@@ -1,0 +1,14 @@
+{
+    "raw_weights": {
+        "roberta": 0.35,
+        "deberta": 0.35,
+        "distilbert": 0.2,
+        "xgboost": 0.1
+    },
+    "normalized_weights": {
+        "roberta": 0.35,
+        "deberta": 0.35,
+        "distilbert": 0.2,
+        "xgboost": 0.1
+    }
+}

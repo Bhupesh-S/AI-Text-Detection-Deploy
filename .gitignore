@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit secrets and credentials
+.streamlit/secrets.toml
+
+# Large model artifacts and weights (loaded from Hugging Face Hub in production)
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.joblib
+*.ubj
+
+# Whitelist lightweight production ensemble checkpoints
+!models/ensemble/checkpoints/
+!models/ensemble/checkpoints/*
+
+# Local model cache directories (models are fetched from Hugging Face Hub at runtime)
+roberta/
+deberta/
+distilbert/
+xgboost/
+
+# Training, experiment, and evaluation outputs
+outputs/
+reports/
+logs/
+/checkpoints/
+
+# Temporary files, local caches, and OS artifacts
+.cache/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
